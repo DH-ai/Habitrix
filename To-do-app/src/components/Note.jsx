@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import { MdDeleteForever } from 'react-icons/md';
 import './Notes.css'; 
