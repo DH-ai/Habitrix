@@ -1,0 +1,25 @@
+.note {
+	background-color: #fef68a;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+	position: relative;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.note-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.delete-icon {
+	color: #e74c3c;
+	cursor: pointer;
+	transition: color 0.3s;
+}
+
+.delete-icon:hover {
+	color: #c0392b;
+}
