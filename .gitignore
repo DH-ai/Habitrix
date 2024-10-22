@@ -1,0 +1,85 @@
+node_modules
+dist/
+.env
+.DS_Store
+coverage/
+.vscode/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# React Native
+# macOS
+*.xcworkspace
+ios/Pods/
+*.xcodeproj/
+*.xcuserdata/
+*.DS_Store
+
+# Android/IntelliJ
+android/.gradle/
+android/app/build/
+android/local.properties
+android/.idea
+android/.cxx/
+android/captures/
+android/output.json
+
+# Metro files
+.expo/
+.expo-shared/
+.expo-cli/
+.expo/states/
+.expo/bundled-assets/
+
+# Testing
+coverage/
+*.lcov
+
+# React Native packager
+*.packager
+
+# Android files
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/assets/index.android.bundle.map
+android/app/src/main/assets/sourcemap.android.js
+android/app/src/main/assets/sourcemap.android.js.map
+
+# iOS files
+ios/build/
+ios/Pods/
+ios/DerivedData/
+ios/*.lock
+ios/Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Miscellaneous
+.env
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Bundle files
+*.jsbundle
+*.map
+*.packager
+*.flow
+
+# OS Files
+Thumbs.db
+.DS_Store
+*.swp
