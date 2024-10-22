@@ -2,7 +2,17 @@ import { createRoot } from "react-dom/client";
 
 const App = () => {
   return (
-    <div className="main" style="align:center">
+    <div style={
+        {
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh",
+            width: "100vw",
+            backgroundColor: "black",
+            color: "white",
+        }
+    }>
       <h1>Habitrix</h1>
     </div>
   );
